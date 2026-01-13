@@ -1,0 +1,76 @@
+# Wind Energy Forecasting Configuration
+
+# Data Configuration
+data:
+  raw_data_path: "Data/germany-wind-energy.csv"
+  processed_data_path: "data/processed/processed_data.csv"
+  features_path: "data/features/features.csv"
+  train_test_split: 0.8
+  validation_split: 0.2
+
+# Feature Engineering
+features:
+  lag_features: [1, 2, 3, 7, 14, 30]
+  rolling_windows: [7, 14, 30]
+  seasonal_features: true
+  temperature_features: true
+  capacity_ratio: true
+
+# Model Configuration
+models:
+  lstm:
+    sequence_length: 30
+    hidden_units: [128, 64]
+    dropout: 0.2
+    epochs: 500
+    batch_size: 32
+    learning_rate: 0.001
+    early_stopping_patience: 15
+    
+  transformer:
+    d_model: 128
+    nhead: 8
+    num_layers: 4
+    dim_feedforward: 512
+    dropout: 0.2
+    sequence_length: 30
+    epochs: 500
+    batch_size: 32
+    learning_rate: 0.001
+    early_stopping_patience: 15
+    
+  xgboost:
+    n_estimators: 1000
+    max_depth: 4
+    learning_rate: 0.01
+    subsample: 0.8
+    colsample_bytree: 0.8
+    random_state: 42
+    
+  lightgbm:
+    n_estimators: 500
+    max_depth: 8
+    learning_rate: 0.01
+    num_leaves: 31
+    random_state: 42
+    
+  prophet:
+    yearly_seasonality: true
+    weekly_seasonality: true
+    daily_seasonality: false
+    seasonality_mode: 'multiplicative'
+
+# Training Configuration
+training:
+  target_column: "wind_generation_actual"
+  test_size: 0.2
+  random_state: 42
+  cv_folds: 5
+  scoring_metrics: ["mse", "mae", "rmse", "mape", "r2"]
+
+# Dashboard Configuration
+dashboard:
+  port: 8501
+  host: "localhost"
+  title: "Wind Energy Forecasting Dashboard"
+  theme: "dark"

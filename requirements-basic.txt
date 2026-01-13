@@ -1,0 +1,31 @@
+# Basic requirements without TensorFlow (for initial setup)
+# Install TensorFlow separately if needed
+
+# Core Data Science Libraries
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Machine Learning (without TensorFlow)
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+lightgbm>=4.0.0
+prophet>=1.1.4
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Dashboard
+streamlit>=1.25.0
+
+# Configuration
+pyyaml>=6.0
+
+# Utilities
+joblib>=1.3.0
+tqdm>=4.65.0
+
+# Data Processing
+python-dateutil>=2.8.2
