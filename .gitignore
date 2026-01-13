@@ -72,3 +72,7 @@ Thumbs.db
 
 # Streamlit
 .streamlit/
+
+# Report generation scripts
+generate_reports.py
+generate_enhanced_reports.py
