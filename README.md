@@ -1,7 +1,7 @@
 <div align="center">
 
-# 🌬️⚡ **WIND ENERGY FORECASTING** 
-## **The Future of AI-Powered Renewable Energy Intelligence**
+# 🌬️⚡ **WINDMIND AI** 
+## **The Intelligent Mind for Wind Energy Forecasting**
 
 ![AI-Powered](https://img.shields.io/badge/AI-Powered%20Multi--Agent-FF6B6B?style=for-the-badge&logo=artificial-intelligence&logoColor=white)
 ![ML Pipeline](https://img.shields.io/badge/ML-Pipeline%20Ready-4ECDC4?style=for-the-badge&logo=tensorflow&logoColor=white)
@@ -17,7 +17,7 @@
 
 ### 🚀 **WHERE AI MEETS RENEWABLE ENERGY** 🚀
 
-**Stop scrolling. This is the project that's changing how we predict wind energy.**
+**Stop scrolling. This is WindMind AI—the intelligent mind that's revolutionizing wind energy forecasting.**
 
 </div>
 
@@ -75,7 +75,7 @@ This isn't your typical machine learning project. This is a **revolutionary AI e
 
 **Welcome to the next generation of energy forecasting.** This platform doesn't just predict—it **orchestrates**, **learns**, and **evolves**. 
 
-We've built something extraordinary: a **sophisticated agentic AI ecosystem** where specialized AI agents collaborate seamlessly. Our **RAG-powered intelligence hub** doesn't just retrieve information—it understands context, synthesizes knowledge, and delivers insights that transform how you think about wind energy forecasting.
+We've built something extraordinary: a **sophisticated agentic AI ecosystem** where specialized AI agents collaborate seamlessly. WindMind AI's **RAG-powered intelligence hub** doesn't just retrieve information—it understands context, synthesizes knowledge, and delivers insights that transform how you think about wind energy forecasting.
 
 ### 🔬 **Core AI Technologies: The Power Behind the Magic**
 
@@ -138,7 +138,7 @@ We've built something extraordinary: a **sophisticated agentic AI ecosystem** wh
 ## 📁 Project Structure
 
 ```
-Wind Energy Forcaster/
+WindMind-AI/
 ├── src/
 │   ├── config/
 │   │   ├── config.yaml          # Configuration file
@@ -196,7 +196,7 @@ Wind Energy Forcaster/
 ### 1. Clone or Navigate to Project Directory
 
 ```bash
-cd "Wind Energy Forcaster"
+cd "WindMind-AI"
 ```
 
 ### 2. Create Virtual Environment (Recommended)
@@ -346,7 +346,7 @@ We've assembled the **most powerful ensemble** of forecasting models. Each model
 
 </div>
 
-Experience the most **intuitive, powerful, and intelligent** dashboard for wind energy forecasting. Every page is designed to give you **instant insights** and **complete control**.
+Experience the most **intuitive, powerful, and intelligent** dashboard for wind energy forecasting. WindMind AI's interface is designed to give you **instant insights** and **complete control**.
 
 | Page | What You Get | Why It's Powerful |
 |:---|:---|:---|
@@ -493,7 +493,7 @@ This project is open source and available for **educational and research purpose
 
 <div align="center">
 
-## 🌟 **Ready to Transform Wind Energy Forecasting?**
+## 🌟 **Ready to Transform Wind Energy Forecasting with WindMind AI?**
 
 ### **Star ⭐ this repo if you find it impressive!**
 

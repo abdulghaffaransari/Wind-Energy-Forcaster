@@ -1,4 +1,4 @@
-# Wind Energy Forecasting Configuration
+# WindMind AI - Configuration
 
 # Data Configuration
 data:
@@ -72,5 +72,5 @@ training:
 dashboard:
   port: 8501
   host: "localhost"
-  title: "Wind Energy Forecasting Dashboard"
+  title: "WindMind AI - Intelligent Wind Energy Forecasting"
   theme: "dark"

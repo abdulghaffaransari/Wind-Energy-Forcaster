@@ -1,5 +1,6 @@
 """
-Interactive Dashboard for Wind Energy Forecasting
+WindMind AI - Interactive Dashboard
+The Intelligent Mind for Wind Energy Forecasting
 Built with Streamlit
 """
 
@@ -31,7 +32,7 @@ from chatbot.intelligence_hub import WindForecastIntelligenceHub
 
 # Page configuration
 st.set_page_config(
-    page_title="Wind Energy Forecasting Dashboard",
+    page_title="WindMind AI - Intelligent Wind Energy Forecasting",
     page_icon="🌬️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -359,9 +360,9 @@ def main():
         with col1:
             st.image(logo_path, width=280)
         with col2:
-            st.markdown('<div style="padding-top: 30px;"><h1 class="main-header">🌬️ Wind Energy Forecasting Dashboard</h1></div>', unsafe_allow_html=True)
+            st.markdown('<div style="padding-top: 30px;"><h1 class="main-header">🌬️⚡ WindMind AI - Intelligent Wind Energy Forecasting</h1></div>', unsafe_allow_html=True)
     else:
-        st.markdown('<h1 class="main-header">🌬️ Wind Energy Forecasting Dashboard</h1>', unsafe_allow_html=True)
+        st.markdown('<h1 class="main-header">🌬️⚡ WindMind AI - Intelligent Wind Energy Forecasting</h1>', unsafe_allow_html=True)
     
     st.markdown("---")
     
