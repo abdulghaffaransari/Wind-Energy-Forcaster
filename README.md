@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌬️⚡ **WINDMIND AI** 
+# 🌬️⚡ **WindMind AI** 
 ## **The Intelligent Mind for Wind Energy Forecasting**
 
 ![AI-Powered](https://img.shields.io/badge/AI-Powered%20Multi--Agent-FF6B6B?style=for-the-badge&logo=artificial-intelligence&logoColor=white)
